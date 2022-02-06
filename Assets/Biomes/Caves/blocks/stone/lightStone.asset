@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa766f1431cd43458cc92bbbdb93d60, type: 3}
+  m_Name: lightStone
+  m_EditorClassIdentifier: 
+  intersectionColor: {r: 0.4666667, g: 0.4666667, b: 0.4666667, a: 1}
+  plants:
+  - UpWeight: 0.1
+    plant: {fileID: 11400000, guid: aad4edeb9f8a9c6498efe8be8a0ef173, type: 2}
+  NumberOfDifferentSprites: 5
+  voronoiDiameter: 3
+  scale: 3
+  AlphaFallOffCutOut: 1
+  fallOffWeight: 0.33
+  ChanceToIgnoreFalloff: 0.2
+  IgnoredFallOffWeight: 0.23
+  colorTypes:
+  - color: {r: 0.468, g: 0.468, b: 0.468, a: 1}
+    canBeTransparent: 1
+    weight: 0.89
+    useTranslation: 0
+    translationColor: {r: 0.307, g: 0.307, b: 0.307, a: 1}
+  - color: {r: 0.34117648, g: 0.34117648, b: 0.34117648, a: 1}
+    canBeTransparent: 0
+    weight: 1
+    useTranslation: 1
+    translationColor: {r: 0.307, g: 0.307, b: 0.307, a: 1}

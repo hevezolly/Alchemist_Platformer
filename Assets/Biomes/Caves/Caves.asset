@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4612f39757d64614690685dd45b00bec, type: 3}
+  m_Name: Caves
+  m_EditorClassIdentifier: 
+  name: caves
+  color: {r: 0.29271984, g: 0.3613843, b: 0.4339623, a: 1}
+  groundTiles: {fileID: 11400000, guid: 9c6a8a875909e0a4ca611848da0db5c2, type: 2}
+  ladders:
+  - {fileID: 11400000, guid: 785c3bf9b67a4804190b00d1b4a288f4, type: 2}
+  LastLadderTile: {fileID: 11400000, guid: bdcafb4760aa2fd46be4571cf7785489, type: 2}

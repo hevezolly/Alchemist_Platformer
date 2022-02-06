@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17dfd5b7df5eb8c41b803e9d41ee46bb, type: 3}
+  m_Name: redGroundGrass
+  m_EditorClassIdentifier: 
+  intersectionColor: {r: 0.6, g: 0.24313727, b: 0.10980393, a: 1}
+  plants: []
+  NumberOfDifferentSprites: 5
+  voronoiDiameter: 3
+  scale: 3
+  FallOffWeight: 0.3
+  ChanceToIgnoreFalloff: 0.2
+  IgnoredFallOffWeight: 0.5
+  topGrass: {fileID: 11400000, guid: ee1dd9e11e6b9e14c804f0d00d00b8e6, type: 2}
+  leftGrass: {fileID: 11400000, guid: ee1dd9e11e6b9e14c804f0d00d00b8e6, type: 2}
+  rightGrass: {fileID: 11400000, guid: ee1dd9e11e6b9e14c804f0d00d00b8e6, type: 2}
+  bottomGrass: {fileID: 11400000, guid: ee1dd9e11e6b9e14c804f0d00d00b8e6, type: 2}
+  colorTypes:
+  - color: {r: 0.601, g: 0.24156985, b: 0.10967151, a: 1}
+    weight: 0.64
+    useTranslation: 0
+    translationColor: {r: 0, g: 0, b: 0, a: 0}
+  - color: {r: 0.433, g: 0.17546405, b: 0.07924183, a: 1}
+    weight: 0.66
+    useTranslation: 0
+    translationColor: {r: 0, g: 0, b: 0, a: 0}

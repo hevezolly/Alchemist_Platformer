@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a078d556aa5f64d9148e13dfd0011c, type: 3}
+  m_Name: plant2
+  m_EditorClassIdentifier: 
+  Name: test plant 2
+  color:
+    colors:
+    - {r: 1, g: 0.79041255, b: 0, a: 1}
+  Icon: {fileID: -1723302690159799587, guid: 7a751540ef7cd6c4da072899dc4b8b5f, type: 3}
+  Description: plant for tests (but orange)
+  property: {fileID: 11400000, guid: 3326d7a59c268864f9c42f63fc6ffa4d, type: 2}
+  TempID: 1

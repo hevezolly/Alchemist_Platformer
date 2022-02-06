@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17dfd5b7df5eb8c41b803e9d41ee46bb, type: 3}
+  m_Name: grassBlock
+  m_EditorClassIdentifier: 
+  intersectionColor: {r: 0.509434, g: 0.398908, b: 0.14177644, a: 1}
+  plants:
+  - UpWeight: 0.1
+    plant: {fileID: 11400000, guid: 3b512b1448b1a2c4683de998a63cb813, type: 2}
+  NumberOfDifferentSprites: 5
+  voronoiDiameter: 3
+  scale: 3
+  FallOffWeight: 0.47
+  ChanceToIgnoreFalloff: 0.2
+  IgnoredFallOffWeight: 0.33
+  topGrass: {fileID: 11400000, guid: 2488d9ff6fd2c4e409b8dff901a2ed18, type: 2}
+  leftGrass: {fileID: 11400000, guid: ba47d26886c154148b4191f6a79106b0, type: 2}
+  rightGrass: {fileID: 11400000, guid: ba47d26886c154148b4191f6a79106b0, type: 2}
+  bottomGrass: {fileID: 11400000, guid: 7a1d31dd5bb1ca743a77d9501fe4e27a, type: 2}
+  colorTypes:
+  - color: {r: 0.50980395, g: 0.40000004, b: 0.14117648, a: 1}
+    weight: 1
+    useTranslation: 1
+    translationColor: {r: 0.24700001, g: 0.21612498, b: 0.07204166, a: 1}
+  - color: {r: 0.45400003, g: 0.3562154, b: 0.12572308, a: 1}
+    weight: 0.69
+    useTranslation: 0
+    translationColor: {r: 0.24705884, g: 0.21568629, b: 0.07058824, a: 1}
