@@ -6,6 +6,7 @@ Genre: platformer
 Tecknologies:
 - Unity 2020.2
 - URP
+- 2d renderer
 - Shader Graph
 - custom procedural level generation
 - custom procedural texture generation
