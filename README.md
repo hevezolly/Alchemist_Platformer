@@ -3,7 +3,7 @@ Development in progress
 
 Genre: platformer
 
-Tecknologies:
+Technologies:
 - Unity 2020.2
 - URP
 - 2d renderer
